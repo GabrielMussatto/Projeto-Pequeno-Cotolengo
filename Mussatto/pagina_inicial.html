@@ -6,13 +6,15 @@
 
 <style>
 	body{
-		background-color: rgb(25, 236, 225);
+		background: linear-gradient(150deg,#286e69,#6e56da,#c41633);
 		color: black;
 		font-size: 20px; /* Define o tamanho da fonte em pixels */
         font-family: Arial, Helvetica, sans-serif; /* Define a fonte da família Arial ou uma fonte genérica sem serifa */
         font-weight: bold; /* Define o peso da fonte como negrito */
         font-style: italic; /* Define o estilo da fonte como itálico */
 		text-align: left; /* Define o local do texto */
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 	
 	h2{
@@ -37,8 +39,19 @@
 	.insta{
 		float: left; margin-right: 0px;
 	}
+	.formulario{
+		color: white;
+	}
+	.instagram{
+		color: white;
+	}
+	.youtube{
+		color: white;
+	}
 
-
+	.links{
+		display: flex;
+	}
 </style>
 <body>
 	<main>
@@ -71,13 +84,14 @@
 				<li>Doação de alimentos</li>
 				<li>Doação de produtos de Limpeza</li>
 				</ul>
-			Se você deseja fazer parte dessa linda família preencha o <a href="index.html">formulário</a>.
+			Se você deseja fazer parte dessa linda família preencha o <a class="formulario" href="indexx.html">formulário</a>.
 		</section>
-		<section>
-			<h2> Entre em Contato</h2>
-			<img class="insta" src="instagram.jfif" alt="" height="20">
-			<p >Visite nosso<a href= "https://www.instagram.com/pequenocotolengo_/"> instagram</a>.</p>
 
+		<h2> Entre em Contato</h2>
+		<section class="links">
+			<img class="insta" src="instagram.jfif" alt="" height="20">
+			<p>Visite nosso<a class="instagram" href= "https://www.instagram.com/pequenocotolengo_/"> instagram</a>.</p> 
+			<p>Visite nosso canal do<a class= "youtube" href="https://www.youtube.com/@pequenocotolengopalmas8136/featured"> youtube</a>.</p>
 		</section>
 	</main>
 	<a href="#topo" class="scroll-btn">Voltar ao topo</a>
