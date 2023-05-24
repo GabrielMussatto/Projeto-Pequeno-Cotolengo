@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    body{
+    margin-top: 5%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background: linear-gradient(150deg,#6e56da,#185a9d);
+    color: aliceblue;
+
+    
+    }
+
+    input[type="text"], input[type="tel"], input[type="date"], input[type="email"]{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(255, 255, 255);
+        opacity: 50%;
+    }
+
+    .topo-da-pagina{
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 5%;
+        width: auto;
+        padding: auto;
+        color: aliceblue;
+        font-size: 20px; /* Define o tamanho da fonte em pixels */
+        font-family: Arial, Helvetica, sans-serif; /* Define a fonte da família Arial ou uma fonte genérica sem serifa */
+        font-weight: bold; /* Define o peso da fonte como negrito */
+        font-style: italic;
+    }
+
+    .paginaprincipal{text-decoration: none; margin-right: 50px;}
+    .doacao{text-decoration: none; margin-right: 50px;}
+    .contatos{text-decoration: none; margin-right: 50px;}
+    .instagram {text-decoration: none; margin-right: 50px;}
+    .youtube{text-decoration: none; margin-right: 50px;}
+    .formulario{text-decoration: none; margin-right: 50px;}
+        
+    .titulo{
+        margin-left: 15%;
+        font-size: 25px;
+        text-shadow: 0px 10px 40px black;
+    }
+
+    hr{
+        opacity: 50%;
+    }
+    
+    .margem{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .topo{
+       
+        margin: 15%;
+        color: aliceblue;
+        
+        
+    }
+    
+    .Inf-pessoais ::placeholder{
+        color: aliceblue;
+    }
+    
+
+    .Inf-pessoais{
+        vertical-align: left;
+        
+    }
+
+    .serv-auxiliares{
+       margin: 0 auto;
+        
+    }
+    
+
+    .Dias{
+        margin: 0 auto;
+        
+    }
+    
+    .nome{
+    
+        width: 50%;
+    }
+
+    .enviar{
+        border-radius: 7px;
+        color: aliceblue;
+        background-color: rgba(46, 54, 126, 0.63);
+        min-height: 3.4em;
+        min-width: 9.2em;
+        font-size: .9em;
+        margin-left: 15%;
+    }
