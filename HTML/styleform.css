@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background: #3f6781;
+    color: aliceblue;
+
+    
+    }
+
+    input[type="text"], input[type="tel"], input[type="date"], input[type="email"]{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(255, 255, 255);
+        opacity: 100%;
+    }
+    
+    header{
+        background-color: rgb(37, 48, 58);
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    nav{
+
+        background-color: #ffffff;
+        background-position: 0 0;
+        background-size: 75px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 15px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        box-shadow: 0 0 10px -4px #000;
+    }
+
+    .imagem{
+        margin-left: 15%;
+        margin-right: 10px;
+        float: left;
+        color: #333;
+        text-decoration: none;
+        position: relative;
+        margin-bottom: auto
+    }
+
+    .menu{
+        margin-right: 3%;
+        position: fixed;
+        top: 40px;
+        left: 0;
+        right: 0;
+        text-align: right;
+        font-size: large;
+        
+    }
+
+    .paginaprincipal{text-decoration: none; margin-right: 75px;}
+    .doacao{text-decoration: none; margin-right: 75px;}
+    .contatos{text-decoration: none; margin-right: 75px;}
+    .instagram {text-decoration: none; margin-right: 75px;}
+    .youtube{text-decoration: none; margin-right: 75px;}
+        
+    .titulo{
+
+        margin-left: 15%;
+        font-size: 25px;
+        text-shadow: 0px 10px 40px black;
+        margin-top: 90px;
+    }
+
+    hr{
+        opacity: 50%;
+    }
+    
+    .margem{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .topo{
+       
+        margin: 15%;
+        color: aliceblue;
+        
+        
+    }
+    
+    .Inf-pessoais ::placeholder{
+        color: aliceblue;
+    }
+    
+
+    .Inf-pessoais{
+        vertical-align: left;
+        
+    }
+
+    .serv-auxiliares{
+       margin-left: 0%;
+       width: 50%;
+        float: left;
+        
+    }
+
+    .Disponibilidade{
+
+        width: 50%;
+        float: right;
+
+    }
+    
+
+    .Dias{
+        margin: 0 auto;
+        
+    }
+    
+    .nome{
+    
+        width: 50%;
+    }
+
+    .enviar{
+        border-radius: 7px;
+        color: rgb(45, 114, 160);
+        background-color: rgb(255, 255, 255);
+        min-height: 3.4em;
+        min-width: 9.2em;
+        font-size: .9em;
+        margin-left: 0%;
+    }
+
+    footer{
+    margin-top: 40px;
+    background-position: 0 0;
+    background-color: #2a485c;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+    }
+
+    .social_finalpg{
+
+        align-items: center;
+        text-align: center;
+        margin-left: 10em;
+        margin-right: 10em;
+    }

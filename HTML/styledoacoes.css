@@ -1,35 +1,167 @@
+header{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    
+}
 body{
     
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 3%;
+    background-image: url('https://doar.pequenocotolengo.org.br/wp-content/themes/cotolengo_cday/images/fff2.jpg');
+    background-size: cover; 
+}
+nav{
+    background-color: #ffffff;
+    background-position: 0;
+    background-size: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 10;
+    box-shadow: 0 0 10px -4px #000;
+}
+.topo-da-pagina{
+    margin-top: 0%;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 15%;
+    width: auto;
+    padding: auto;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.menu{
+    margin-right: 20px;
+    position: fixed;
+    top: 35px;
+    left: 0;
+    right: 0;
+    text-align: right;
+    margin-top:auto;
+    margin-right: auto;
+    margin-left: 0%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
-    background: linear-gradient(150deg,#6e56da,#185a9d);
-    color: aliceblue;
-    font-size: 20px; /* Define o tamanho da fonte em pixels */
-    font-family: Arial, Helvetica, sans-serif; /* Define a fonte da família Arial ou uma fonte genérica sem serifa */
-    font-weight: bold; /* Define o peso da fonte como negrito */
-    font-style: italic; /* Define o estilo da fonte como itálico */
-    text-align: left; /* Define o local do texto */
-    margin-left: 5%;
-    margin-right: 5%;
+}
+.imagem{
+    float: left;
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    margin-top: 5px;
+}
+.sites{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+.paginaprincipal{text-decoration: none; margin-right: 50px;}
+.doacao{text-decoration: none; margin-right: 50px;}
+.contatos{text-decoration: none; margin-right: 50px;}
+.instagram {text-decoration: none; margin-right: 50px;}
+.youtube{text-decoration: none; margin-right: 50px;}
+.formulario{text-decoration: none; margin-right: 50px;}
+
+.container {
+max-width: 800px;
+margin: 5%;
+padding: 20px;
+text-align: center;
+color: white;
+position: relative;
+margin-top: 100px;
+}
+
+
+
+
+
+.donation-options {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+
+
+}
+
+.option {
+margin: 30px;
+}
+
+.destaque {
+font-size: 25px;
+color: white;
+}
+
+.col-md-6{
+    width: 40%;
+    font-weight: 100;
+    color: white;
+    position: relative;
+    top: -80px; 
+    margin-right: 15px;
+}
+  
+
+.col-12{
+    width: 40%;
+    font-weight: 100;
+    color: white;
+    position: relative;
+    top: -80px; 
+    size: 10;
+}
+.col-md-2{
+    width: 40%;
+    font-weight: 100;
+    color: white;
+    position: relative;
+    top: -80px; 
     
-    }
-    .topo-da-pagina{
-        margin-top: 5%;
-        text-align: center;
-        margin-left: 15%;
-        margin-right: 15%;
-        margin-bottom: 5%;
-        width: auto;
-        padding: auto;
-        color: aliceblue;
-        font-size: 20px; /* Define o tamanho da fonte em pixels */
-        font-family: Arial, Helvetica, sans-serif; /* Define a fonte da família Arial ou uma fonte genérica sem serifa */
-        font-weight: bold; /* Define o peso da fonte como negrito */
-    }
-    
-    .paginaprincipal{text-decoration: none; margin-right: 50px;}
-    .doacao{text-decoration: none; margin-right: 50px;}
-    .contatos{text-decoration: none; margin-right: 50px;}
-    .instagram {text-decoration: none; margin-right: 50px;}
-    .youtube{text-decoration: none; margin-right: 50px;}
-    .formulario{text-decoration: none; margin-right: 50px;}
+}
+  
+
+
+.btn-primary{
+background-color: rgb(224, 113, 9);
+width: 100px;
+height: 50px;
+font-size: 17px;
+}
+
+.btn-primary{
+outline: none;
+background-color:chocolate;
+}
+
+.option input[type="radio"] {
+display: none;
+}
+
+.option label {
+display: block;
+cursor: pointer;
+padding: 10px 20px;
+background-color: rgb(224, 103, 22);
+border-radius: 5px;
+}
+
+.option input[type="radio"]:checked + label {
+background-color: #e91e63;
+color: white;
+background-color: rgb(185, 84, 252);
+}
+
+

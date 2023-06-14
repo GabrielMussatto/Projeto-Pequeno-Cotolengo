@@ -1,40 +1,76 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário Enviado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styleconfirmacao.css">
 </head>
 <body>
-    <script>
-        window.addEventListener("DOMContentLoaded", function() {
-          // Obtém os parâmetros enviados pelo formulário na URL
-          var parametros = new URLSearchParams(window.location.search);
+  <header>
+    <nav>
+      <div class="topo-da-pagina">
+        <div class="menu">
+          <div class = "imagem">
+            <img src="https://uploads-ssl.webflow.com/5862a2f65d45728241fe7c10/640224092a210748f12f5dd6_Horizontal-p-500.png"  width="172">
+           </div>
+            <div  class="sites">
+              <a class = "paginaprincipal" style="color:black" href="pagina_inicial.html"> PAGINA PRINCIPAL</a>
+              <a class = "doacao" style="color:black" href="doacoes.html"> DOAÇÕES</a>
+              <a class = "contatos" style="color:black" href="contato.html"> CONTATOS</a>
+              <a class = "youtube" style="color:black" href="https://www.youtube.com/@pequenocotolengopalmas8136/featured"> YOUTUBE</a>
+              <a class = "instagram" style="color:black" href="https://www.instagram.com/pequenocotolengo_/"> INSTAGRAM</a>
+            </div>
+        </div>
+      </div>
+    </nav>
+    <h1>Suas respostas foram enviadas com sucesso!</h1>
+  </header>
+  
+  <div class="agradecimento">
+    <p>Agradeço imensamente por se interessar em ajudar em nosso projeto voluntário. 
+      Sua disposição em oferecer seu tempo e habilidades é inspiradora. Sua participação fará a diferença na vida daqueles que necessitam.<br>
+
+      Agradeço novamente por se juntar a nós. Entrarei em contato em breve para discutirmos mais detalhes sobre sua participação no projeto.<br>
       
-          // Obtém os valores dos parâmetros
-          var nome = parametros.get("nome");
-          var email = parametros.get("email");
-          var telefone = parametros.get("telefone");
-          
-          var aniversário = parametros.get("data");
-      
-          // Exibe os dados na página
-          document.getElementById("nome").textContent = nome;
-          document.getElementById("email").textContent = email;
-          document.getElementById("telefone").textContent = telefone;
-          
-          document.getElementById("data").textContent = aniversário;
-        });
+      Grato(a) por sua generosidade.    
+    </p>
+  </div>
+  
+  
+  <br><br>
+  <div id="results">
+  
+      <script>
+        const resultsList = document.getElementById('results') 
+        new URLSearchParams(window.location.search).forEach((value, name) => {
+        resultsList.append(`${name}: ${value}`) 
+        resultsList.append(document.createElement('br'))
+        })
       </script>
-      
-      <h2>Dados do formulário:</h2>
-      
-      <p>Nome: <span id="nome"></span></p>
-      <p>Email: <span id="email"></span></p>
-      <p>Telefone: <span id="telefone"></span></p>
-      
-      <p>Data: <span id="data"></span></p>
-      
+  </div>
+  <div class="botao">
+    <a class="btn btn-primary" href="formulario.html" role="button">Voltar</a>
+  </div>
+
 </body>
+
+<footer>
+    <div class="social_finalpg">
+        <a class = "youtube" href="https://www.youtube.com/@pequenocotolengopalmas8136"> 
+            <img src="https://uploads-ssl.webflow.com/5862a2f65d45728241fe7c10/5a01b19e5e0eae0001281e6a_youtube.png" width="34">
+        </a>
+
+        <a class = "instagram" href="https://www.instagram.com/pequenocotolengo_/?utm_medium=copy_link"> 
+            <img src="https://uploads-ssl.webflow.com/5862a2f65d45728241fe7c10/5b859a4db8e950e09105b5db_Instagram%20Icone.png" width="30">
+        </a>
+
+        <a class = "localizacao" href="https://goo.gl/maps/gFdo7uk77d2GMx9H7"> 
+            <img src="localização.png" width="25"> 
+        </a>
+    </div>
+</footer>
+
 </html>

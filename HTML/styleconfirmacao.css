@@ -1,104 +1,78 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+header{
+    padding-top: 6%;
+    padding-bottom: 5px;
 }
-
 body{
     background:#3f6781;
     color: white;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif; 
     text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    
 }
-
-h1{
-    text-align: center;
-    font-size: 30px;
-}
-
-header{
-    background-color: rgb(37, 48, 58);
-    padding-top: 15px;
-    padding-bottom: 5px;
-    max-width: 1600px;
-}
-
 nav{
     background-color: #ffffff;
-    background-position: 0;
+    background-position: 0 0;
     background-size: 75px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 2px;
     font-size: 15px;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    bottom: 10;
+    bottom: 100;
     box-shadow: 0 0 10px -4px #000;
 }
-
 .topo-da-pagina{
-    margin-top: 0%;
+    margin-top: 4%;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-right: 15%;
     width: auto;
     padding: auto;
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;
-    position: relative;
 }
-
-.imagem{
-    float: left;
-    color: #333;
-    text-decoration: none;
-    position: relative;
-    margin-top: 5px;
-}
-
 .menu{
     margin-right: 20px;
     position: fixed;
-    top: 35px;
+    top: 20px;
     left: 0;
     right: 0;
     text-align: right;
     margin-top:auto;
     margin-right: auto;
-    margin-left: 0%;
+    margin-left: 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: larger;
 }
+.imagem{
+    margin-left: 15%;
+    float: left;
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: auto;
+    margin-top: -5px;
+}
 .sites{
     position: fixed;
-    top: 0px;
+    top: 25px;
     left: 0;
     right: 0;
-}
-
-.titulo{
-    text-shadow: 0px 10px 40px black;
-    margin-top: 100px;
-    margin-bottom: 50px;
-        
-}
-
-section {
-    max-width: 1600px;
-    margin: auto;
 }
 .paginaprincipal{text-decoration: none; margin-right: 50px;}
 .doacao{text-decoration: none; margin-right: 50px;}
 .contatos{text-decoration: none; margin-right: 50px;}
 .instagram {text-decoration: none; margin-right: 50px;}
 .youtube{text-decoration: none; margin-right: 50px;}
-.formulario{text-decoration: none; margin-right: 50px;}
 
 footer{
-    margin-top: 40px;
+    margin-top: 119px;
     background-position: 0 0;
     background-color: #2a485c;
     position: relative;
@@ -107,7 +81,9 @@ footer{
     right: 0;
     padding-top: 20px;
     padding-bottom: 20px;
-    
+    margin-bottom: -200px;
+    margin-left: -75px;
+    margin-right: -75px;
 }
 
 .social_finalpg{
@@ -117,26 +93,25 @@ footer{
     margin-right: 10em;
 }
 
-.areaimg {
-    max-width: 1600px;
-    align-items: center;
-    margin: auto;
+.agradecimento{
+    float: right;
+    position: center;
+    width: 40%;
+    text-align: justify;
+    margin-top: 4%;
+    
 }
-.areaimg .areaimgflex {
-    display: flex;
+
+.results{
+    margin-top: 10%;
 }
-.box {
-    flex: 1;
+.botao{
+    position: relative;
+    margin-top: 50px;
+    
 }
-.box img {
-    width: 100%;
-}
-.box {
-    margin-right: 10px;
-}
-.padrao {
-    padding-top: 40px;
-}
-.padrao h1 {
-    margin-bottom: 60px;
+h1{
+    margin-top: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
 }

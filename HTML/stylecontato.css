@@ -1,35 +1,180 @@
 body{
-    
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
-    background: linear-gradient(150deg,#6e56da,#185a9d);
-    color: aliceblue;
-    font-size: 20px; /* Define o tamanho da fonte em pixels */
-    font-family: Arial, Helvetica, sans-serif; /* Define a fonte da família Arial ou uma fonte genérica sem serifa */
-    font-weight: bold; /* Define o peso da fonte como negrito */
-    font-style: italic; /* Define o estilo da fonte como itálico */
-    text-align: left; /* Define o local do texto */
+    background:#326180;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: left;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 3%;
+    padding-bottom: 200px;
+}
+.topo-da-pagina{
+    margin-top: 4%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
+    padding: auto;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;/* Define a fonte da família Arial ou uma fonte genérica sem serifa */
+}
+nav{
+    background-color: #ffffff;
+    background-position: 0 0;
+    background-size: 75px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    font-size: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 100;
+    box-shadow: 0 0 10px -4px #000;
+}
+.menu{
+    margin-right: 20px;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+    text-align: right;
+    margin-top:auto;
+    margin-right: auto;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+header{
+    background-color: rgb(37, 48, 58);
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.imagem{
+    margin-left: 7%;
+    float: left;
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: auto;
+    margin-top: 5px;
+}
+.sites{
+    position: fixed;
+    top: 35px;
+    left: 0;
+    right: 0;
+}
+
+.paginaprincipal{text-decoration: none; margin-right: 50px;}
+.doacao{text-decoration: none; margin-right: 50px;}
+.contatos{text-decoration: none; margin-right: 50px;}
+.instagram {text-decoration: none; margin-right: 50px;}
+.youtube{text-decoration: none; margin-right: 50px;}
+.formulario{text-decoration: none; margin-right: 50px;}
+
+.formularios {
+
+    border: 3px solid aliceblue;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 700px;
+    padding: 30px;
+}
+
+.rodape {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 4%;
+    font-weight: bold;
+}
+.telefone {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 4%;
+}
+.endereco {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 4%;
+}
+.form-label {
+    width: 500px;
+}
+.titulo {
+    margin-left: 120px;
+    color: aliceblue;
+}
+
+
+
+.tabela {
+    margin-left: 4%;
+    width: 1700px;
+    border-color:  aliceblue;
+
+}
+
+.imagem2 {
+  
+    margin-left: 300px;
+
+    max-width: 1000px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+    margin-top: 13%;
     
-    }
-    .topo-da-pagina{
-        margin-top: 5%;
-        text-align: center;
-        margin-left: 15%;
-        margin-right: 15%;
-        margin-bottom: 5%;
-        width: auto;
-        padding: auto;
-        color: aliceblue;
-        font-size: 20px; /* Define o tamanho da fonte em pixels */
-        font-family: Arial, Helvetica, sans-serif; /* Define a fonte da família Arial ou uma fonte genérica sem serifa */
-        font-weight: bold; /* Define o peso da fonte como negrito */
-    }
-    
-    .paginaprincipal{text-decoration: none; margin-right: 50px;}
-    .doacao{text-decoration: none; margin-right: 50px;}
-    .contatos{text-decoration: none; margin-right: 50px;}
-    .instagram {text-decoration: none; margin-right: 50px;}
-    .youtube{text-decoration: none; margin-right: 50px;}
-    .formulario{text-decoration: none; margin-right: 50px;}
+}
+
+.incentivo {
+    margin-top: 9%;
+    margin-left: 95px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.imgtelefone {
+    width: 20%;
+
+}
+
+.imgloc {
+    width: 20%;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: rgb(27, 99, 163);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(40, 150, 170);
+}
+

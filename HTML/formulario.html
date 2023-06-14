@@ -1,128 +1,133 @@
 <!DOCTYPE html>
-         <html lang="pt-br">
-         <head>
-             <meta charset="UTF-8">
-             <meta http-equiv="X-UA-Compatible" content="IE=edge">
-             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-             <link rel="stylesheet" href="style.css">
-             
-             <title>Pequeno Cotolengo</title>
-         </head>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styleform.css">
+<link rel="stylesheet" href="confirmacao.html">
+<title>Pequeno Cotolengo</title>
+</head>
          
-         <header>
-            <nav>
-                <div class="topo-da-pagina">
-                    <a class = "paginaprincipal" style="color:aliceblue" href="pagina_inicial.html"> PAGINA PRINCIPAL</a>
-                    <a class = "doacao" style="color:aliceblue" href="doacoes.html"> DOAÇÕES</a>
-                    <a class = "contatos" style="color:aliceblue" href="contato.html"> CONTATOS</a>
-                    <a class = "youtube" style="color:aliceblue" href="https://www.youtube.com/@pequenocotolengopalmas8136/featured"> YOUTUBE</a>
-                    <a class = "instagram" style="color:aliceblue" href="https://www.instagram.com/pequenocotolengo_/"> INSTAGRAM</a>
-                    <a class = "formulario" style="color:aliceblue" href="formulario.html"> FORMULÁRIO</a>
-                </div>
-            </nav>
-
-            <div class="titulo">
-                <h1>Formulario Pequeno Catolengo</h1>
+<header>
+    <nav>
+    <div class="topo-da-pagina">
+        <div class = "imagem">
+            <img src="https://uploads-ssl.webflow.com/5862a2f65d45728241fe7c10/640224092a210748f12f5dd6_Horizontal-p-500.png"  width="172">
+        </div>
+            <div class="menu">
+                <a class = "paginaprincipal" style="color:rgb(0, 0, 0)" href="pagina_inicial.html"> PAGINA PRINCIPAL</a>
+                <a class = "doacao" style="color:rgb(0, 0, 0)" href="doacoes.html"> DOAÇÕES</a>
+                <a class = "contatos" style="color:rgb(0, 0, 0)" href="contato.html"> CONTATOS</a>
+                <a class = "youtube" style="color:rgb(0, 0, 0)" href="https://www.youtube.com/@pequenocotolengopalmas8136"> YOUTUBE</a>
+                <a class = "instagram" style="color:rgb(0, 0, 0)" href="https://www.instagram.com/pequenocotolengo_/?utm_medium=copy_link"> INSTAGRAM</a>
             </div>
-         </header>
+    </div>
+    </nav>
+</header>
+
+    <div class="titulo">
+        <h1>Formulário Pequeno Cotolengo</h1>
+    </div>
         
-         <body>
-            <main>
+<body>
+    <main>
+        <br><br><br><br>
 
-            <br><br><br><br>
-
-            <Div class="margem">
-
+        <Div class="margem">
+            <form action="confirmacao.html" method="get">
                 <div class="Inf-pessoais">
-                <h2>Informações Pessoais</h2><br>
-                <form id="formulário" action="confirmacao.html" method="post">
-                    <label id="cor" for="nome">Seu Nome</label><br>
-                    <input class="nome" type="text" placeholder="Nome" id="nome" name="nome" size="" required><br>
-         
-                    <input class="Sobrenome" placeholder="Sobrenome" type="text" id="sobrenome" name="Sobrenome" required><br><br>
-         
+                    <h2>Informações Pessoais</h2><br>
+            
+                    <label id="cor" for="Nome">Seu Nome</label><br>
+                    <input class="Nome" type="text" placeholder="Nome" id="Nome" name="Nome" size="" required><br>
+            
+                    <input class="Sobrenome" placeholder="Sobrenome" type="text" id="Sobrenome" name="Sobrenome" required><br><br>
+            
                     <!-- Telefone -->
-                    <label for="telefone">Telefone:</label><br>
-                    <input type="text" placeholder="Telefone" id="telefone" name="Telefone" size="100" required><br><br>
-             
+                    <label for="Telefone">Telefone:</label><br>
+                    <input type="text" placeholder="Telefone" id="Telefone" name="Telefone" size="100" required><br><br>
+                
                     <!-- Endereço -->
-                    <label for="endereço">Endereço:</label><br>
-                    <input type="text" placeholder="Endereço" id="endereço" name="Endereço" size="100" required><br><br>
-         
+                    <label for="Endereço">Endereço:</label><br>
+                    <input type="text" placeholder="Endereço" id="Endereço" name="Endereço" size="100" required><br><br>
+            
                     <!-- Data de Aniversario -->
-                    <label for="aniversário">Aniversário:</label><br>
-                    <input type="date" id="aniversário" name="Aniversário" size="100" width="100" required><br><br>
+                    <label for="Aniversário">Aniversário:</label><br>
+                    <input type="date" id="Aniversário" name="Aniversário" size="100" width="100" required><br><br>
 
                     <!-- email -->
                     <label for="email">E-mail:</label><br/>
-                    <input type="email" placeholder="E-mail" id="email" name="email" size="128" required><br><br>
-                    <br>
+                    <input type="email" placeholder="E-mail" id="E-mail" name="E-mail" size="128" required><br><br>
+                <br>
                 </div>    
-             
             <br>
-         
-                <div class="serv">
-                    <label for="serviços"><h2>Serviços Auxiliares</h2><br>
-                </div>
          
                 <div class="serv-auxiliares">
-                    <input type="checkbox" option value="Auxiliar de Limpeza"> Auxiliar de Limpeza</option><br>
-                    <input type="checkbox" option value="Bazar"> Bazar</option><br>
-                    <input type="checkbox" option value="Comunicação"> Comunicação</option><br>
-                    <input type="checkbox" option value="Enfermeira(o)"> Enfermeira(o)</option><br>
-                    <input type="checkbox" option value="Fisioterapeuta"> Fisioterapeuta</option><br>
-                    <input type="checkbox" option value="Fonoaudióloga(o)"> Fonoaudióloga(o)</option><br>
-                    <input type="checkbox" option value="Gestão de projetos e captação de recursos"> Gestão de projetos e captação de recursos</option><br>
-                    <input type="checkbox" option value="Monitoria"> Monitoria</option><br>
-                    <input type="checkbox" option value="Profissional de Educação Física"> Profissional de Educação Física</option><br>
-                    <input type="checkbox" option value="Psicólogo(a)"> Psicólogo(a)</option><br>
-                    <input type="checkbox" option value="Quitanda"> Quitanda</option><br>
-                    <input type="checkbox" option value="Técnico de Enfermagem"> Técnico de Enfermagem</option><br>
-                    <input type="checkbox" option value="Telemarketing"> Telemarketing</option><br>
-                    <input type="checkbox" option value="Transportes"> Transportes</option><br>
-                    <input type="checkbox" option value="Outros"> Outros</option><br>
+
+                    <div class="serv">
+                        <h2>Serviços Auxiliares</h2><br>
+                    </div>
+
+                    <input type="checkbox" id="Auxiliar de Limpeza" name="Posso ajudar" option value="Auxiliar de Limpeza"> Auxiliar de Limpeza</option><br>
+                    <input type="checkbox" id="Bazar" name="Posso ajudar" option value="Bazar"> Bazar</option><br>
+                    <input type="checkbox" id="Comunicação" name="Posso ajudar" option value="Comunicação"> Comunicação</option><br>
+                    <input type="checkbox" id="Enfermeira" name="Posso ajudar" option value="Enfermeira(o)"> Enfermeira(o)</option><br>
+                    <input type="checkbox" id="Fisioterapeuta" name="Posso ajudar" option value="Fisioterapeuta"> Fisioterapeuta</option><br>
+                    <input type="checkbox" id="Fonoaudióloga" name="Posso ajudar" option value="Fonoaudióloga(o)"> Fonoaudióloga(o)</option><br>
+                    <input type="checkbox" id="Gestão de projetos e captação de recursos" name="Posso ajudar" option value="Gestão de projetos e captação de recursos"> Gestão de projetos e captação de recursos</option><br>
+                    <input type="checkbox" id="Monitoria" name="Posso ajudar" option value="Monitoria"> Monitoria</option><br>
+                    <input type="checkbox" id="Profissional de Educação Física" name="Posso ajudar" option value="Profissional de Educação Física"> Profissional de Educação Física</option><br>
+                    <input type="checkbox" id="Psicólogo" name="Posso ajudar" option value="Psicólogo(a)"> Psicólogo(a)</option><br>
+                    <input type="checkbox" id="Quitanda" name="Posso ajudar" option value="Quitanda"> Quitanda</option><br>
+                    <input type="checkbox" id="Técnico de Enfermagem" name="Posso ajudar" option value="Técnico de Enfermagem"> Técnico de Enfermagem</option><br>
+                    <input type="checkbox" id="Telemarketing" name="Posso ajudar" option value="Telemarketing"> Telemarketing</option><br>
+                    <input type="checkbox" id="Transportes" name="Posso ajudar" option value="Transportes"> Transportes</option><br>
+                    <input type="checkbox" id="Outros" name="Posso ajudar" option value="Outros"> Outros</option><br>
                 </div>
-                <br>       
-            <br>
          
-            <div type="disponibilidade"></div>
+                <div type="Disponibilidade"></div>
+                    <label for="Disponibilidade"><h2>Dias que você está disponivel:</h2></label><br>
 
-           
-                <label for="Disponibilidade"><h2>Dias que você está disponivel:</h2></label><br>
-
-                <div class="Dias">
-                <input type="checkbox" option value="Segunda-feira">Segunda-feira</option><br>
-         
-                <input type="checkbox" option value="Terça-feira">Terça-feira</option><br>
-         
-                <input type="checkbox" option value="Quarta-feira">Quarta-feira</option><br>
-         
-                <input type="checkbox" option value="Quinta-feira">Quinta-feira</option><br> 
-         
-                <input type="checkbox" option value="Sexta-feira">Sexta-feira</option><br>
-         
-                <input type="checkbox" option value="Sábado">Sábado</option><br>
-         
-                <input type="checkbox" option value="Domingo">Domingo</option><br>
-                <br>
-                
-            </div>
-         
-            <br>
-
+                    <div class="Dias">
+                    <input type="checkbox" id="Segunda-feira" name="Disponibilidade" option value="Segunda-feira">Segunda-feira</option><br>
             
-            <div type="Mensagem">
-                <label for="mensagem"><h4>Mensagem:</h4></label>
-                    <textarea id="mensagem" name="mensagem" rows="4" cols="40"></textarea><br><br>
-         
-            </div>
+                    <input type="checkbox" id="Terça-feira" name="Disponibilidade" option value="Terça-feira">Terça-feira</option><br>
             
-            <input class="enviar" type="submit" value="Enviar" href="confirmacao.html">
-                </form>
+                    <input type="checkbox" id="Quarta-feira" name="Disponibilidade" option value="Quarta-feira">Quarta-feira</option><br>
+            
+                    <input type="checkbox" id="Quinta-feira" name="Disponibilidade" option value="Quinta-feira">Quinta-feira</option><br> 
+            
+                    <input type="checkbox" id="Sexta-feira" name="Disponibilidade" option value="Sexta-feira">Sexta-feira</option><br>
+            
+                    <input type="checkbox" id="Sábado" name="Disponibilidade" option value="Sábado">Sábado</option><br>
+            
+                    <input type="checkbox" id="Domingo" name="Disponibilidade" option value="Domingo">Domingo</option><br><br>
+                </div>
+                <br><br><br>
 
-            </Div><!-- fechamento margem-->
-            </main>
-        
-         </body>
-         </html>
+                <div type="Mensagem">
+                    <label for="Mensagem"><h4>Mensagem:</h4></label>
+                    <textarea id="Mensagem" name="Mensagem" rows="4" cols="40"></textarea><br><br>
+                    <input class="enviar" type="submit" value="Enviar">
+                </div>
+        </Div><!-- fechamento margem-->
+    </main>
+    <footer>
+        <div class="social_finalpg">
+            <a class = "youtube" href="https://www.youtube.com/@pequenocotolengopalmas8136"> 
+                <img src="https://uploads-ssl.webflow.com/5862a2f65d45728241fe7c10/5a01b19e5e0eae0001281e6a_youtube.png" width="34">
+            </a>
+
+            <a class = "instagram" href="https://www.instagram.com/pequenocotolengo_/?utm_medium=copy_link"> 
+                <img src="https://uploads-ssl.webflow.com/5862a2f65d45728241fe7c10/5b859a4db8e950e09105b5db_Instagram%20Icone.png" width="30">
+            </a>
+
+            <a class = "localizacao" href="https://goo.gl/maps/gFdo7uk77d2GMx9H7"> 
+                <img src="localização.png" width="25"> 
+            </a>
+        </div>
+    </footer>
+    </form>
+</body>
+</html>

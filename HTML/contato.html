@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,19 +6,137 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel ="stylesheet" href="stylecontato.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel = "stylesheet" href="stylecontato.css">
+	<link href="jscontato.js"> 
+
+	
 </head>
-<body>
-    <nav>
-		<div id="topo" class="topo-da-pagina">
-			<a class = "paginaprincipal" style="color:aliceblue" href="pagina_inicial.html"> PAGINA PRINCIPAL</a>
-			<a class = "doacao" style="color:aliceblue" href="doacoes.html"> DOAÇÕES</a>
-			<a class = "contatos" style="color:aliceblue" href="contato.html"> CONTATOS</a>
-			<a class = "youtube" style="color:aliceblue" href="https://www.youtube.com/@pequenocotolengopalmas8136/featured"> YOUTUBE</a>
-			<a class = "instagram" style="color:aliceblue" href="https://www.instagram.com/pequenocotolengo_/"> INSTAGRAM</a>
-			<a class = "formulario" style="color:aliceblue" href="formulario.html"> FORMULÁRIO</a>
+
+<header>
+	<nav>
+		<div class="topo-da-pagina">
+			
+			<div class="menu">
+				<div class = "imagem">
+					<img src="https://uploads-ssl.webflow.com/5862a2f65d45728241fe7c10/640224092a210748f12f5dd6_Horizontal-p-500.png"  width="172">
+			 	</div>
+					<div  class="sites">
+						<a class = "paginaprincipal" style="color:black" href="pagina_inicial.html"> PAGINA PRINCIPAL</a>
+						<a class = "doacao" style="color:black" href="doacoes.html"> DOAÇÕES</a>
+						<a class = "contatos" style="color:black" href="contato.html"> CONTATOS</a>
+						<a class = "youtube" style="color:black" href="https://www.youtube.com/@pequenocotolengopalmas8136/featured"> YOUTUBE</a>
+						<a class = "instagram" style="color:black" href="https://www.instagram.com/pequenocotolengo_/"> INSTAGRAM</a>
+						<a class = "formulario" style="color:black" href="formulario.html"> FORMULÁRIO</a>
+					</div>
+			</div>
 		</div>
 	</nav>
+</header>
+<body>
+	<br><br><br><br>
+	<div class="titulo">
+	<h1>Fale conosco!</h1>
+	</div>
+	<br>
+	<div class="container">
+	<div class="row">
+	<div class="col-6">
+	<div class="formularios">
+	<br<br>
+		<form id="myForm">
+			<label for="name">Nome:</label>
+			<br>
+			<input type="text" id="name" name="name" required>
+			<br><br>
+			<label for="phone">Telefone:</label>
+			<br>
+			<input type="text" id="phone" name="phone" required>
+			<br><br>
+			<label for="email">Email:</label>
+			<br>
+			<input type="email" id="email" name="email" required>
+			<br>
+			<label for="message">Mensagem:</label>
+			<textarea id="message" name="message" required rows="3"></textarea>
+			<br><br>
+			<input type="submit" value="Enviar">
+		</form>
+		<script>
+		document.getElementById("myForm").addEventListener("submit", function(event) {
+			event.preventDefault();
+		  
+			
+			var name = document.getElementById("name").value;
+			var phone = document.getElementById("phone").value;
+			var email = document.getElementById("email").value;
+			var message = document.getElementById("message").value;
+		  
+			// validação nome
+			if (name.trim() === "") {
+			  alert("Por favor, preencha o campo nome.");
+			  return;
+			}
+		  
+			// validação telefone 
+			if (!phone.match(/^\d+$/)) {
+			  alert("Por favor, insira um número de telefone válido.");
+			  return;
+			}
+		  
+			// validação email
+			if (!email.match(/^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$/)) {
+			  alert("Por favor, insira um endereço de e-mail válido.");
+			  return;
+			}
+		  
+			// validação mensagem 
+			if (message.trim() === "") {
+			  alert("Por favor, preencha o campo mensagem.");
+			  return;
+			}
+			alert("Formulário enviado com sucesso!");
+		  });
+		</script>
+		</div>
+		</div>
+
+	    <div class="col-6">
+		
+		<img class="imagem2" src="https://uploads-ssl.webflow.com/5862a2f65d45728241fe7c10/587e1a6ff4f44cc11dd094df_icones_home-04.png">
+		<br><br><br><br><br>
+		<div class="incentivo">
+		<br>
+		Juntos podemos fazer a diferença! Se você está aqui, é porque acredita no poder de ajudar os outros e tornar o mundo um lugar melhor. Seja qual for a sua mensagem, ela é valiosa e pode contribuir para o crescimento e aprimoramento do nosso projeto!
+		</div>
+	    
+	    </div>
+	    </div>
+		<br><br><br><br>
+        <footer>
+		<div class="rodape">
+	
+		<h2>Outros meios de contato:</h2>
+		<br>
+	
+		<div class="row">
+		<div class="col-6">
+		<img src="https://static.vecteezy.com/system/resources/previews/017/339/642/original/whatsapp-transparent-background-free-png.png" class="imgtelefone"><br>
+        (63)3214-1033<br>
+        (63)99999-0871<br>
+        (63)98494-2476<br>
+		</div>
+		<div class="col-6">
+		<br><a class = "localizacao" href="https://goo.gl/maps/gFdo7uk77d2GMx9H7"> 
+				<img class="imgloc" src="https://static.vecteezy.com/system/resources/previews/010/159/780/non_2x/house-symbol-and-home-icon-sign-design-free-png.png">  <br>
+			</a>
+		Q. 904 Sul Av Lo 21, 316 - Arse <br>
+        Palmas - TO, 77023-356 <br>
+		</div>
+		</div>
+		</div>
+
+	</footer>
+	
 </body>
 </html>
